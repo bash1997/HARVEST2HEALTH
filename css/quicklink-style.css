@@ -86,8 +86,7 @@ Text Domain: quicklinks
 }
 
 .box {
-    background: rgba(250, 153, 28, .5);
-	border-color: rgba(250, 153, 28, .5);
+    background: rgb(18, 79, 4);
 	border-radius: 3px;
 	text-transform: none;
 	padding-top: .5rem;

@@ -108,17 +108,24 @@ container.classList.add("content-wrapper");
 container.classList.add("container");
 siteSection.append(container);
 
-const portfolio = NewLink("Portfolio");
-portfolio.url = "../portfolio/index.html";
-portfolio.description = "Check out my projects!";
-portfolio.box(container);
+const cashapp = NewLink("Cash App");
+cashapp.url = "https://cash.app/$nucas";
+cashapp.description = "$nucas";
+cashapp.box(container);
 
-const fiverr = NewLink("Fiverr");
-fiverr.url = "https://www.fiverr.com/share/17k7xp";
-fiverr.description = "See what services I offer on Fiverr";
-fiverr.box(container);
+const paypal = NewLink("PayPal");
+paypal.description = "Eugene Yarbrough";
+paypal.box(container);
 
-const subscriber = NewLink("Subscribe To Our Email List");
+const venmo = NewLink("Venmo");
+venmo.description = "Eugene-Yarbrough";
+venmo.box(container);
+
+const zelle = NewLink("Zelle");
+zelle.description = "19176538743";
+zelle.box(container);
+
+const subscriber = Standout("Subscribe To Our Email List");
 subscriber.url = "http://eepurl.com/h1uYX9";
-// subscriber.description = "Sign up to our subscriber list to get a weekly produce list, and a list of the locations we are currently at. Love and Peace!";
+subscriber.description = "Get a weekly produce list, and a list of the locations we are currently at.";
 subscriber.box(container)
