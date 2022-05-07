@@ -167,6 +167,6 @@ zelle.description = "19176538743";
 zelle.box(container);
 
 const subscriber = Standout("Subscribe To Our Email List", "subscribe");
-subscriber.url = "http://eepurl.com/h1uYX9";
+subscriber.url = ""
 subscriber.description = "Get a weekly produce list, and a list of the locations we are currently at.";
 // subscriber.box(container)
