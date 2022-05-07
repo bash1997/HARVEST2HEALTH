@@ -93,6 +93,7 @@ Text Domain: quicklinks
 	padding-bottom: .5rem;
 	text-align: center;
 	margin-bottom: 15px;
+    font-size: 1.25rem;/*22.5*/
 }
 
 .standout.box {
@@ -100,7 +101,8 @@ Text Domain: quicklinks
 	border-color: black;
 }
 
-.box a:hover {
+.box a:hover,
+.box div:hover {
 	text-decoration: none;
 	color: #fff;
 }
