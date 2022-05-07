@@ -1,0 +1,156 @@
+/*
+Theme Name: Quick Links
+Theme URL: http://bshwork.me/
+Description: Quick Links Theme
+Author: Bria Saunders-Hall
+Author URL: http://bshwork.me/
+Version: 1.0.0
+Text Domain: quicklinks
+*/
+/* Custom CSS goes after this line */
+
+@font-face {
+    font-family: biko-regular;
+    src: url("../font/biko/biko-regular.otf");
+}
+
+@font-face {
+    font-family: biko-bold;
+    src: url("../font/biko/biko-bold.otf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: biko-black;
+    src: url("../font/biko/biko-black.otf");
+}
+
+#quicklinks {
+    background: #BC1823;
+    font-family: biko-regular;
+}
+
+#quicklinks div.content-wrapper {
+    flex-direction: column;
+}
+
+#linkWrapper {
+	margin: 15px 0;
+}
+
+#linkWrapper .box:first-of-type {
+	margin-top: 15px;
+}
+
+.container,
+.container-lg,
+.col-12,
+#avatar {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-flow: wrap row;
+}
+
+#avatar {
+	margin-top: 15px;
+}
+
+#avatar img {
+	border-radius: 50%;
+    width: 100%;
+}
+
+#clients_img img,
+#extra img {
+	height: 345px;
+}
+
+.block-heading {
+    font-family: biko-black;
+    color: black;
+    font-weight: 400;
+    text-transform: none;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 1.71rem;
+    padding-bottom: 15px;
+}
+
+.block-text {
+    font-family: biko-bold;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 1.03rem;
+    padding-top: 15px;
+}
+
+.box {
+    background: rgba(250, 153, 28, .5);
+	border-color: rgba(250, 153, 28, .5);
+	border-radius: 3px;
+	text-transform: none;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.standout.box {
+	background: black;
+	border-color: black;
+}
+
+.box a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.btn-link, .btn-link:active,
+.btn-link:hover, .btn-link:link,
+.btn-link:visited {
+    display: block;
+    width: 100%;
+    text-decoration: none!important;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    position: relative;
+    height: auto;
+    line-height: 1.2;
+    white-space: normal;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.btn-link-title {
+    color: #fff;
+    text-transform: capitalize;
+    font-family: biko-black;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-link-subtitle {
+    color: #ffffff;
+    font-weight: normal;
+    font-family: biko-bold;
+    opacity: .7;
+    font-size: 90%;
+    margin-top: .2rem;
+}
+
+.divider {
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	border-bottom: 1px grey solid;
+	position: relative;
+}
+
+@media  screen and (min-width: 560px) {
+    #avatar {
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+}
